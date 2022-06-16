@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    background-color: dimgrey;
+    margin-left: 5%;
+}
+.square{
+    background:#a6f7f3;
+    color:#fff;
+    width:100px;
+    height:100px;
+    float:left;
+    border:1px solid #d63d26;
+  }
+  h1{
+      height: 50%; 
+      width:100%;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .tooBig{
+    background:#f32202;
+    color:#fff;
+    width:100px;
+    height:100px;
+    float:left;
+    border:1px solid #d63d26;
+  }
+
+  .tooSmall{
+    background:#041df8;
+    color:#fff;
+    width:100px;
+    height:100px;
+    float:left;
+    border:1px solid #d63d26;
+  }
+
+  .found{
+    background:#057e05;
+    color:#fff;
+    width:100px;
+    height:100px;
+    float:left;
+    border:1px solid #d63d26;
+  }
