@@ -1,64 +1,76 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Alfonso Buzeta</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&family=Merriweather:wght@300&family=Pacifico&display=swap" rel="stylesheet">
-  </head>
-  <body>
 
-    <div class="top-container">
-      <img class="top-cloud"src="images/cloud.png" alt="cloud">
-      <h1>Welcome, Im Alfonso</h1>
-      <h2 class="title">a student at GSU </h2>
-      <img  class="bottom-cloud" src="images/cloud.png" alt="cloud">
-      <img src="images/mountain.png" alt="image">
-    </div>
-    <div class="middle-container">
-      <div class="profile">
-        <img class="alfonso-image" src="images/alfonso.png" alt="Picture of Alfonso">
-        <h2>Hello.</h2>
-        <p>I am student at Georgia State University. Computer Science Major.</p>
-      </div>
-      <hr>
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img class="coder-image" src="https://res.cloudinary.com/practicaldev/image/fetch/s--_HBZhuhF--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/nweeqf97l2md3tlqkjyt.jpg" alt="Image of software developer">
-          <h3>Software Developer Student</h3>
-          <p>I am learning to be a software developer. I have learned Java, C, Python, x86.</p>
-        </div>
-        <div class="skill-row">
-          <img class="swimmer-image" src="https://media0.giphy.com/media/l4EoTZaLLJAY4zHWw/200.webp?cid=ecf05e475ukpgmylfpsx50mvvpq9ii9d9pjp2w64vryi3syv&rid=200.webp" alt="Hey Arnold gif">
-          <h3>Swimmer</h3>
-          <p>One of my best skills outside of being a software developer is swimming.</p>
-        </div>
-        <div class="skill-row">
-          <h3>Projects</h3>
-          <a href="binarySearch.html"><h4>Binary Search</h4></a>
-        </div>
-      </div>
-      <hr>
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>If you are looking for someone to talk to.</h3>
-        <p>Love swimming and coding? Lets talk about it and work on something together.</p>
-        <a class="btn" href="mailto:alfonsobuzeta@gmail.com">CONTACT ME</a>
-      </div>
-    </div>
+<head>
+  <meta charset="utf-8">
+  <title>Alfonso Buzeta</title>
+  <link rel="stylesheet" href="{{ asset('/css/style.css') }}">
+  <!-- <link rel="stylesheet" href="css/styles.css"> -->
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&family=Merriweather:wght@300&family=Pacifico&display=swap"
+    rel="stylesheet">
+</head>
 
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/in/alfonso-buzeta-3856bb193/">LinkedIn</a>
-      <a class="footer-link" href="https://twitter.com/alfonsobuzeta">Twitter</a>
-      <a class="footer-link" href="https://www.instagram.com/alfonsobuzeta/">Instagram</a>
-      <p class="copyright">© 2021 Alfonso Buzeta Borquez.</p>
-    </div>
+<body>
 
-    <!--
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud">
+    <h1>Welcome, Im Alfonso</h1>
+    <h2 class="title">a student at GSU </h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
+    <img src="images/mountain.png" alt="image">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="alfonso-image" src="images/alfonso.png" alt="Picture of Alfonso">
+      <h2>Hello.</h2>
+      <p>I am student at Georgia State University. Computer Science Major.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="coder-image"
+          src="https://res.cloudinary.com/practicaldev/image/fetch/s--_HBZhuhF--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/nweeqf97l2md3tlqkjyt.jpg"
+          alt="Image of software developer">
+        <h3>Software Developer Student</h3>
+        <p>I am learning to be a software developer. I have learned Java, C, Python, x86.</p>
+      </div>
+      <div class="skill-row">
+        <img class="swimmer-image"
+          src="https://media0.giphy.com/media/l4EoTZaLLJAY4zHWw/200.webp?cid=ecf05e475ukpgmylfpsx50mvvpq9ii9d9pjp2w64vryi3syv&rid=200.webp"
+          alt="Hey Arnold gif">
+        <h3>Swimmer</h3>
+        <p>One of my best skills outside of being a software developer is swimming.</p>
+      </div>
+      <div class="skill-row">
+        <h3>Projects</h3>
+        <a href="binarySearch.html">
+          <h4>Binary Search</h4>
+        </a>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you are looking for someone to talk to.</h3>
+      <p>Love swimming and coding? Lets talk about it and work on something together.</p>
+      <a class="btn" href="mailto:alfonsobuzeta@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/alfonso-buzeta-3856bb193/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/alfonsobuzeta">Twitter</a>
+    <a class="footer-link" href="https://www.instagram.com/alfonsobuzeta/">Instagram</a>
+    <p class="copyright">© 2021 Alfonso Buzeta Borquez.</p>
+  </div>
+
+  <!--
     <a href="stuff.html">examples</a>
   -->
-  </body>
+</body>
+
 </html>
