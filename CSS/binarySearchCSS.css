@@ -1,15 +1,17 @@
 body{
     text-align: center;
-    background-color: dimgrey;
+    background-color: rgb(212, 250, 242);
     margin-left: 5%;
 }
 .square{
-    background:#a6f7f3;
+    background:#395554;
     color:#fff;
     width:100px;
     height:100px;
     float:left;
     border:1px solid #d63d26;
+    border-radius: 25px;
+    margin: 10px;
   }
   h1{
       height: 50%; 
@@ -26,6 +28,8 @@ body{
     height:100px;
     float:left;
     border:1px solid #d63d26;
+    border-radius: 25px;
+    margin: 10px;
   }
 
   .tooSmall{
@@ -35,6 +39,8 @@ body{
     height:100px;
     float:left;
     border:1px solid #d63d26;
+    border-radius: 25px;
+    margin: 10px;
   }
 
   .found{
@@ -44,4 +50,6 @@ body{
     height:100px;
     float:left;
     border:1px solid #d63d26;
+    border-radius: 25px;
+    margin: 10px;
   }

@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    background-color: #E4F9F5;
+}
+
+img{
+  width: 250px;
+  height: 150px;
+}
+.flex-parent-element {
+    display: flex;
+    width: 100%;
+  }
+  
+  .flex-child-element {
+    flex: 1;
+    border: 2px solid blueviolet;
+    margin: 10px;
+    background-color: rgb(186, 246, 248);
+  }
+  
+  .flex-child-element:hover{
+    animation: tilt-shaking 0.25s infinite;
+    }
+
+  .flex-child-element:first-child {
+    margin-right: 20px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  @keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+  }
