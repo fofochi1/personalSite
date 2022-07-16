@@ -1,0 +1,10 @@
+.resume{
+    text-align: center;
+    width: 100%;
+}
+
+.resume img{
+    width: 700px;
+    height: 800px;
+    border-radius: 10px;
+}
